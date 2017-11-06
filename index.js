@@ -25,8 +25,8 @@ bot.on("message", function(message) {
     if (message.content == "!vote") {
         message.channel.sendMessage("Vote: https://centrixpvp.eu/vote/")
     }
-    if (message.content == "!applications") {
-        message.channel.sendMessage("Applications: https://centrixpvp.eu/apply//")
+    if (message.content == "!staffapp") {
+        message.channel.sendMessage("Staff Application: https://centrixpvp.eu/apply//")
     }
     if (message.content == "!store") {
         message.channel.sendMessage("Store: https://centrix.buycraft.net/")
