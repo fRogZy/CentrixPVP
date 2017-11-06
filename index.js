@@ -2,6 +2,8 @@ const Discord = require("discord.js");
 
 var bot = new Discord.Client();
 
+const TOKEN = "Mzc3MTcwNzAwODk4Nzk1NTIx.DOJeqA.Y057-uFuv2cd_xdxczoT2FH-mzA"
+
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
 
@@ -37,4 +39,4 @@ bot.on("message", function(message) {
     }
 });
 
-client.login(process.env.BOT_TOKEN);
+bot.login(TOKEN);
